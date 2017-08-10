@@ -19,6 +19,8 @@ namespace MyProject.Dtos
  
         public byte MembershipTypeId { get; set; }
 
+        public MembershipTypeDto MembershipType { get; set; }
+
         [Min18IfAMember]
         public DateTime? Birthdate { get; set; }
     }
